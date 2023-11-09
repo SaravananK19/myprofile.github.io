@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Move items to the left and right corners */
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav-links li {
+    display:inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color:black;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color:black;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    background-color: black;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact-form button {
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Add a violet text shadow on hover for specific elements */
+header:hover,
+#about:hover,
+#skills:hover,
+#projects h2:hover,
+.project a:hover,
+#contact h2:hover {
+  text-shadow: 4px 6px 8px red; /* Adjust the shadow as needed */
+  transition: text-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Optional: Style the link text on hover */
+.project a:hover {
+  text-decoration: underline; /* Underline the link text on hover */
+}
+/* Yellow text shadow for "Saravanan K" on hover */
+nav .logo:hover {
+  text-shadow: 0 0 10px yellow; /* Adjust the glow effect as needed */
+  transition: text-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
